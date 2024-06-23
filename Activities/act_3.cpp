@@ -32,8 +32,7 @@ public:
     void user_choice(){
         int choice;
         double amount;
-        cout << "Enter 1 to Deposit" << endl
-            << "Enter 2 to Withdraw" << endl;
+        cout << "Enter 1-Deposit | 2-Withdraw" << endl;
         cin >> choice;
 
         if(choice == 1){
@@ -54,7 +53,7 @@ public:
             }
         }
         else{
-            cout << "Invalid Input!";
+            cout << "Invalid Input!" << endl;
         }
     }
 };
@@ -66,7 +65,7 @@ int main(){
         cout << "A/c. No." << bank_acc.getAccNum() << " Balance: " << bank_acc.getBal() << endl;
         bank_acc.user_choice();
         
-        cout << "You want to exit? [y/n]";
+        cout << "You want to exit? [y/n]" << endl;
         cin >> log_out_choice;
     } while (log_out_choice != 'y');
 
