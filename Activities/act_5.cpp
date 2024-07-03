@@ -50,4 +50,4 @@ int main(){
     cout << "Updated Salary: " << employee.getSalary() << endl;
 
     return 0;
-};
+}

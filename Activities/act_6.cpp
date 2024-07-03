@@ -57,4 +57,4 @@ int main(){
     studentDetails.displayInfo();
 
     return 0;
-};
+}

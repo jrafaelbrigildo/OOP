@@ -24,4 +24,4 @@ int main(){
     Circle circle(radius);
     cout << "Area: " << circle.CalculateArea() << endl;
     cout << "Circumference: " << circle.CalculateCircumference() << endl;
-};
+}

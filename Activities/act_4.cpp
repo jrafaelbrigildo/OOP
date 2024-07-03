@@ -39,4 +39,4 @@ int main(){
     triangle.checkTriangle();
 
     return 0;
-};
+}

@@ -70,4 +70,4 @@ int main(){
     } while (log_out_choice != 'y');
 
     return 0;
-};
+}
